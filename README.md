@@ -9,7 +9,7 @@ Learning scheme...
 1. https://cisco.github.io/ChezScheme/ 中安装 Chez,
    将 C:\Program Files\Chez Scheme 9.5\bin\ta6nt 添加到环境变量 Path 中
    在命令行输入 scheme 没报错就对了
-2. vscode 安装 code runner (也可以使用 vscode 自带是 task 功能,自定义命令) ,在 vscode 的 settings.json 文件 中添加配置:
+2. vscode 安装 code runner (也可以使用 vscode 自带的 task 功能,自定义命令) ,在 vscode 的 settings.json 文件 中添加配置:
 
 ```json
  "code-runner.executorMapByGlob": {
@@ -18,7 +18,7 @@ Learning scheme...
     },
 ```
 
-根据 code runner 最新文档 需要 executorMapByGlob 配置才有效,网上其他教程 code-runner.executorMapByFileExtension 上配置亲测无效,如果运行出现乱码,多是环境变量不对.
+根据 code runner 最新文档 需要 配置 executorMapByGlob 才有效,网上其他教程在 code-runner.executorMapByFileExtension 上配置亲测无效,如果运行出现乱码,多是环境变量不对.
 好了, 打开 scm 后缀的文件 右键 run code 或者按下 ctrl +alt +n 即可运行 ,在 vscode 下方的控制台中可以看到结果.
 实际上这种方式运行程序和命名输入
 
