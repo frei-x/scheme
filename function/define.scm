@@ -1,0 +1,12 @@
+(define hi "Hello world")
+(define hi "hi\n")  
+(display hi)
+(display (* (+ 1 39) (- 53 45)))
+(define sum3
+  (lambda (a b c)
+    (+ a b c)))
+(define f (lambda (name)         
+    (string-append  "\nHello " name "!")))
+(display (f "浩哥哥"))
+(display (string-append "\n" (sum3 1 2 3)))
+(exit)
