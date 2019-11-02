@@ -1,0 +1,6 @@
+(define (abs input)
+  (if (< input 0) (- input) input))
+  (display (abs -2))
+  (and 1 2 3 #f)
+  (or #f 1 2 3)
+  (exit)
